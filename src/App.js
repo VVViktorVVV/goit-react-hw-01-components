@@ -5,12 +5,14 @@ import React from "react";
 import user from './Data/user.json'
 import data from './Data/data.json'
 import friends from './Data/friends.json'
+import transactions from './Data/transactions.json'
 
 //components
 import Profile from './Components/Profile/Profile'
 import StatisticsSecition from "./Components/Statistics/Statistics";
 import StatisticsList from "./Components/Statistics.list/Statistics.list";
 import FriendList from "./Components/FriendList/FriendList";
+import TransactionHistori from "./Components/TransactionHistory/TransactionHistory";
 
 //style
 import './App.css';
@@ -35,7 +37,9 @@ function App() {
         <StatisticsList items={data}/>
       </StatisticsSecition>
 
-      <FriendList items={friends}/>;
+      <FriendList items={friends} />;
+      
+      <TransactionHistori items={transactions} />
 
 
 
