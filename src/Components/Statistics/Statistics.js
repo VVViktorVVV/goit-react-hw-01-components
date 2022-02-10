@@ -1,12 +1,14 @@
 import React from "react";
 import PropTypes from 'prop-types';
 
+import s from './Statistics.module.css'
+
 
 
 const StatisticsSecition = ({ title, children }) => {
     return (
-<section className="statistics">
-    {title && <h2>{title}</h2>}
+        <section className={s.statistics}>
+    {title && <h2 className={s.title}>{title}</h2>}
     {children}
 </section>
     )
