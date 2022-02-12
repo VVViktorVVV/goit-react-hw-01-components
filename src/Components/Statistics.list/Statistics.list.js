@@ -10,7 +10,7 @@ const StatisticsList = ({items}) => {
     return (
         <ul className={s.list}>
             {items.map(item => (
-                <li key={item.id} className={s.item}>
+                <li key={item.id} className={s.item} style={{ backgroundColor: `rgb(0 164 0)` }}>
                         <StatisticsItem
                         label={item.label}
                         percentage={item.percentage}

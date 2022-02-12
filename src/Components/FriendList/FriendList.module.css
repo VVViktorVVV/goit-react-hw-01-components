@@ -1,0 +1,16 @@
+.list {
+  margin-top: 50px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}

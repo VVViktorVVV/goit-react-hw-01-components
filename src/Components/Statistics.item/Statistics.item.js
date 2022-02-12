@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from 'prop-types';
 
-import s from './Statistics.item.module..css'
+import s from './Statistics.item.module.css'
 
 const StatisticsItem = ({ label, percentage }) => {
     return (
